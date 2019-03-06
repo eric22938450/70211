@@ -134,21 +134,6 @@
             <point key="canvasLocation" x="983.20000000000005" y="26.600985221674879"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Xtt-kc-3Mb">
-            <objects>
-                <viewController id="e9a-M0-Wzf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UJr-FZ-LeX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="QzS-29-Al2"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0g2-pU-2HY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3543" y="-1400"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="gg2-vA-4A9">
             <objects>
                 <viewController id="1wc-0z-jBC" sceneMemberID="viewController">
@@ -320,9 +305,11 @@
                                 <rect key="frame" x="164" y="578" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="e9a-M0-Wzf" kind="show" id="qg9-GU-Z6T"/>
-                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQu-Gf-0OA">
+                                <rect key="frame" x="117" y="515" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
